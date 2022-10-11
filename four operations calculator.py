@@ -1,6 +1,6 @@
-x=int(input("birinci sayı:"))
-y=int(input("ikinci sayı:"))
-z=input("işlemi şeçiniz: (+,-,x,/):")
+x=int(input("enter first number:"))
+y=int(input("enter second number:"))
+z=input("select a transaction: (+,-,x,/):")
 
 if z=="+" :
     print (x + y)
@@ -13,4 +13,4 @@ elif z=="/" :
 elif z=="xx" :
     print (x ** y)
 else :
-    print (".:hatalı tuşlama yaptınız:.")
+    print (".:misclick:.")
