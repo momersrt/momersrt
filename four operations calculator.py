@@ -10,7 +10,5 @@ elif z=="x" :
     print (x * y)
 elif z=="/" :
     print (x / y)
-elif z=="xx" :
-    print (x ** y)
 else :
     print (".:misclick:.")
